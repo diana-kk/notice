@@ -4,7 +4,7 @@ var SVG = Snap('#my-svg');
 var Paper = SVG.g();
 
 // 이미지
-var notice = Paper.image('notice.png', 0, 0, 350, 500).toDefs();
+var notice = Paper.image('notice.png', 0, 0, 350, 400).toDefs();
 
 // SVG 외곽선
 Paper.rect(0, 0, 360, 640, 6).attr({
